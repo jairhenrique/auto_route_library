@@ -4,7 +4,7 @@ version: 3.1.0
 homepage: https://github.com/Milad-Akarie/auto_route_library
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   build: ^2.1.1
@@ -15,9 +15,10 @@ dependencies:
   code_builder: ^4.1.0
   dart_style: ^2.2.0
   auto_route:
-#       ^3.1.0
-    path: ../auto_route
-
+    git:
+      url: git@github.com:carlosfiori/auto_route_library.git
+      ref: toggle_generate_args
+      path: ./auto_route
 
 dev_dependencies:
   source_gen_test:
