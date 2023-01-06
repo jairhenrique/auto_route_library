@@ -16,7 +16,7 @@ dependencies:
   dart_style: ^2.2.0
   auto_route:
     git:
-      url: git@github.com:carlosfiori/auto_route_library.git
+      url: https://github.com/jairhenrique/auto_route_library
       ref: toggle_generate_args
       path: ./auto_route
 
